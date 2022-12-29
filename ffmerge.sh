@@ -16,7 +16,7 @@ if ! ([[ $1 ]] && [[ $2 ]] && [[ $3 ]])
 then
     echo "ffmerge uses ffmpeg to merge video or audio files in a given folder"
     echo "WARNING: It is assumed that all target files have originated from a single source (same codec, container, etc)"
-    echo "usage: ffmerge targetfoler extension outfile"
+    echo "usage: ffmerge targetfolder extension outfile"
     echo "example: ffmerge /usr/Videos .mp4 merged.mp4"
     exit
 fi
