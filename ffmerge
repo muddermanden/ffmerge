@@ -1,9 +1,10 @@
 #!/usr/bin/env sh
 
-# FFMERG
-# Version: 1.0.0
+# FFMERGE
+# Version: 2.0.0
 # License: Open Source (MIT)
 # Copyright (c) 2018 Niranjan Kalyanasundaram
+# Copyright (c) 2022 Morten Henrichsen (muddermanden)
 
 # This script uses ffmpeg to merge and re-encode all video files that contain a given text pattern in their filenames in a given directory.
 # The resulting file is optimized for streaming and saves disk space.
@@ -11,6 +12,7 @@
 #
 # Usage: ffmerg [-h] targetfoler pattern outfile
 # Example: ffmerge /usr/Videos "episode" merged
+
 
 # Display usage information
 display_usage() {
