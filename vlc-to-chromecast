@@ -17,6 +17,11 @@ parse_arguments() {
         chromecast_ip="$2"
         shift 2
         ;;
+      -h|--help)
+        # Display usage message
+        echo "Usage: $0 [-f|--file video_file] [-c|--chromecast chromecast_ip]"
+        exit 0
+        ;;
       *)
         # Unknown option
         shift
